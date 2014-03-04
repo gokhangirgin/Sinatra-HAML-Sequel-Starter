@@ -1,0 +1,10 @@
+!!!
+%h1 
+	= message[:title]
+	%span{ :style => "color:#cd1235;"} 
+		= message[:desc]
+	%ul
+	-data.each do |a|
+		%li
+			=a[:key]
+			=a[:val]
