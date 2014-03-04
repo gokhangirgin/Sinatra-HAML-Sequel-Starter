@@ -18,7 +18,7 @@ $ bundle install
 ```
 
 ```
- $ sequel -m db/ sqlite://test.db #to create database schema with sequel
+ $ sequel -m db/ sqlite://test.db #to create database schema from sequel
 ```
 
 ```
